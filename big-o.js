@@ -17,7 +17,8 @@
         }
     }
 
-    findNemo(nemo); //loops through nemo array, array[i] is essentially array[0] which = 'nemo'
+    findNemo(nemo); // loops through nemo array, array[i] is essentially array[0] which = 'nemo'
 
-    findNemo(everyone);//each added item will take a little longer to execute
+    findNemo(everyone); // each added item will take a little longer to execute
 
+    //findNemo(large); // O(n) - linear time (most common big O notation)
