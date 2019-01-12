@@ -1,5 +1,6 @@
-//BIG O - tells us how well a problem is solved (efficiency of code - how long     an algorithmn takes to run)
-    //what is good code? - 1.readable, 2.scalable (big o allows us to see how       scalable code is)
+// BIG O - tells us how well a problem is solved (efficiency of code - how long     an algorithmn takes to run)
+    // what is good code? - 1.readable, 2.scalable (big o allows us to see how       scalable code is)
+    // dowloaded materials and challenge to desk top
 
     // example of O(n) - linear time
         const nemo = ['nemo'];
