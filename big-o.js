@@ -2,7 +2,7 @@
     // what is good code? - 1.readable, 2.scalable (big o allows us to see how       scalable code is)
     // dowloaded materials and challenge to desk top
 
-    // example of O(n) - linear time
+    // example of O(n) - linear time --------------------------------------------
         const nemo = ['nemo'];
 
         const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla', 'hank'];
@@ -25,7 +25,7 @@
 
         //findNemo(large); // O(n) - linear time (most common big O notation)
 
-    // example of O(1) - constant time
+    // example of O(1) - constant time ------------------------------------------
         const boxes = [0,1,2,3,4,5];
 
         function compressFirstBox(boxes) {
@@ -39,3 +39,18 @@
 
         logFirstTwoBoxes(boxes); // O(2) - its still considered O(1) because its always a constant amount of time to execute. doesnt matter if its O(1000), its still O(1) because its constant
 
+    // Big 0 calculation solution -----------------------------------------------
+        // What is the Big 0 of the below function? (Hint, you may want to go line by line)
+        function funChallenge(input) {
+            let a = 10; // 0(1)
+            a = 50 + 3; // 0(1)
+    
+            for (let i = 0; i < input.length; i++) { // 0(n)
+            anotherFunction(); // 0(n)
+            let stranger = true; // 0(n)
+            a++; // 0(n)
+            }
+            return a; // 0(1)
+        } // BIG O is (3 + 4n) or O(n)
+
+        funChallenge(); 
