@@ -75,3 +75,13 @@
         }
 
         // Big O is (4 + 7n) or O(n) 
+
+    // Simplifying Big O --------------------------------------------------------
+        // Rule 1: Worst case
+            // always assume worst case scenario when running code 
+        // Rule 2: Remove constants
+            //
+        // Rule 3: Diffrent terms for inputs
+            //
+        // Rule 4: Drop non dominants
+            //
