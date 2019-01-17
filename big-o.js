@@ -80,7 +80,7 @@
         // Rule 1: Worst case
             // always assume worst case scenario when running code 
         // Rule 2: Remove constants
-            //
+            // (4 + 7n + n/2 + 10000) if we remove the constants, it can be simplified as O(n)
         // Rule 3: Diffrent terms for inputs
             //
         // Rule 4: Drop non dominants
