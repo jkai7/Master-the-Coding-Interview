@@ -17,7 +17,7 @@
                     console.log(`no nemo at ${[i]}...`)
                 }
             }
-        }
+        } 
 
         findNemo(nemo); // loops through nemo array, array[i] is essentially array[0] which = 'nemo'
 
